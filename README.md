@@ -1,6 +1,6 @@
 # npmdoc-in-publish
 
-#### api documentation for  [in-publish (v2.0.0)](https://github.com/iarna/in-publish)  [![npm package](https://img.shields.io/npm/v/npmdoc-in-publish.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-in-publish) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-in-publish.svg)](https://travis-ci.org/npmdoc/node-npmdoc-in-publish)
+#### basic api documentation for  [in-publish (v2.0.0)](https://github.com/iarna/in-publish)  [![npm package](https://img.shields.io/npm/v/npmdoc-in-publish.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-in-publish) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-in-publish.svg)](https://travis-ci.org/npmdoc/node-npmdoc-in-publish)
 
 #### Detect if we were run as a result of `npm publish`
 
@@ -21,26 +21,43 @@
 ```json
 
 {
-    "name": "in-publish",
-    "version": "2.0.0",
-    "description": "Detect if we were run as a result of 'npm publish'",
-    "main": "index.js",
+    "author": {
+        "name": "Rebecca Turner"
+    },
     "bin": {
         "in-publish": "in-publish.js",
         "in-install": "in-install.js",
         "not-in-publish": "not-in-publish.js",
         "not-in-install": "not-in-install.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/iarna/in-publish"
-    },
-    "author": "Rebecca Turner <me@re-becca.org>",
-    "license": "ISC",
     "bugs": {
         "url": "https://github.com/iarna/in-publish/issues"
     },
-    "homepage": "https://github.com/iarna/in-publish"
+    "dependencies": {},
+    "description": "Detect if we were run as a result of 'npm publish'",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "e20ff5e3a2afc2690320b6dc552682a9c7fadf51",
+        "tarball": "https://registry.npmjs.org/in-publish/-/in-publish-2.0.0.tgz"
+    },
+    "gitHead": "7602f2f81f8be988cae554d706bd4a3f1d563f1a",
+    "homepage": "https://github.com/iarna/in-publish",
+    "license": "ISC",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "iarna"
+        }
+    ],
+    "name": "in-publish",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/iarna/in-publish.git"
+    },
+    "scripts": {},
+    "version": "2.0.0"
 }
 ```
 
